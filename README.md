@@ -1,10 +1,8 @@
-## snowball thrower
+## Final Fantasy X Lightning Dodger
 
-Automatically throws snowballs in The Legend of Zelda: Breath of the Wild by emulating a controller on a Teensy++ v2.0
+Automatically dodges lightning bolts in the Thunder Plains by emulating a controller on a SparkFun Pro Micro (ATmega32U4).
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/udo8mv5oarg/0.jpg)](https://www.youtube.com/watch?v=udo8mv5oarg)
-
-A full writeup is [here](https://medium.com/@bertrandom/automating-zelda-3b37127e24c8).
+[![IMAGE ALT TEXT HERE](https://streamable.com/9tc3zi)](https://streamable.com/9tc3zi)
 
 #### How to use
 
