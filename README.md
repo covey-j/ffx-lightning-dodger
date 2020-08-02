@@ -8,7 +8,7 @@ Automatically dodges lightning bolts in the Thunder Plains by emulating a contro
 
 Go to this spot in the Thunder Plains
 
-[(https://i.imgur.com/bxcSTej.jpg)](https://i.imgur.com/bxcSTej.jpg)
+[![IMAGE ALT TEXT HERE](https://i.imgur.com/bxcSTej.jpg)](https://i.imgur.com/bxcSTej.jpg)
 
 Walk up to Pondo until the **(A) Talk** option is available and plug in the controller. It will automatically sync with the console, initiate the bowling game with Pondo, throw a perfect strike, and end the bowling game. It will play the bowling game in a loop.
 
