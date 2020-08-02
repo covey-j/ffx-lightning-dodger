@@ -22,7 +22,9 @@ This repository has been tested using a Pro Micro 5V/16MHz (ATmega32U4).
 
 The board in the image is an Arduino Uno, but I used the same pinouts on the Pro Micro. Pin 9 for the (optional) blinking LED and Pin A0 for the photoresistor.
 
-#### Compiling and Flashing onto a SparkFun Pro Micro
+#### Compiling
+
+A pre-compiled `Joystick.hex` file for the Pro Micro 5V/16MHz can be found [here](https://github.com/crumpmasterjc/ffx-lightning-dodger/releases).
 
 If your Pro Micro is a 3.3V/8MHz rather than a 5V/16MHz, go to line 17 in the makefile and change 16000000 to 8000000. For Linux, follow the instructions for installing the [GCC Compiler and Tools](https://www.pjrc.com/teensy/gcc.html). For Windows, you will need the [latest AVR toolchain](http://www.atmel.com/tools/atmelavrtoolchainforwindows.aspx) from the Atmel site.
 
@@ -40,7 +42,11 @@ cd ffx-lightning-dodger
 git clone https://github.com/abcminiuser/lufa.git
 ```
 
-Open a terminal window in the `ffx-lightning-dodger` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Then use [avrdude](https://www.nongnu.org/avrdude/user-manual/avrdude.html) to flash `Joystick.hex` onto your Pro Micro and you're good to go. Probably the easiest way to figure out the exact command you should use to do this is to use Arduino IDE (don't forget to follow the [Pro Micro hookup guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)), go into File->Preferences, enable verbose output during upload, and upload any sketch to the Pro Micro. In the output window, find the avrdude command that was used, copy/paste it into a terminal, and replace the path to the .hex file with the path to `Joystick.hex`. Run the command and you should be all set assuming no errors.
+Open a terminal window in the `ffx-lightning-dodger` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build!
+
+#### Flashing onto a SparkFun Pro Micro
+
+Use [avrdude](https://www.nongnu.org/avrdude/user-manual/avrdude.html) to flash `Joystick.hex` onto your Pro Micro and you're good to go. Probably the easiest way to figure out the exact command you should use to do this is to use Arduino IDE (don't forget to follow the [Pro Micro hookup guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)), go into File->Preferences, enable verbose output during upload, and upload any sketch to the Pro Micro. In the output window, find the avrdude command that was used, copy/paste it into a terminal, and replace the path to the .hex file with the path to `Joystick.hex`. Run the command and you should be all set assuming no errors.
 
 #### Thanks
 
