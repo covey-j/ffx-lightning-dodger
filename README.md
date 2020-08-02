@@ -32,15 +32,13 @@ LUFA has been included as a git submodule, so cloning the repo like this:
 git clone --recursive git@github.com:crumpmasterjc/ffx-lightning-dodger
 ```
 
-If that doesn't work, try this:
+will put LUFA in the right directory. If that doesn't work, try this:
 
 ```
 git clone https://github.com/crumpmasterjc/ffx-lightning-dodger.git
 cd ffx-lightning-dodger
 git clone https://github.com/abcminiuser/lufa.git
 ```
-
-will put LUFA in the right directory.
 
 Open a terminal window in the `ffx-lightning-dodger` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Then use [avrdude](https://www.nongnu.org/avrdude/user-manual/avrdude.html) to flash `Joystick.hex` onto your Pro Micro and you're good to go. Probably the easiest way to figure out the exact command you should use to do this is to use Arduino IDE (don't forget to follow the [Pro Micro hookup guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)), go into File->Preferences, enable verbose output during upload, and upload any sketch to the Pro Micro. In the output window, find the avrdude command that was used, copy/paste it into a terminal, and replace the path to the .hex file with the path to 'Joystick.hex'. Run the command and you should be all set assuming no errors.
 
