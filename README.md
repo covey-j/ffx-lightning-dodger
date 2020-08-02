@@ -34,10 +34,8 @@ git clone --recursive git@github.com:crumpmasterjc/ffx-lightning-dodger
 
 will put LUFA in the right directory.
 
-Now you should be ready to rock. Open a terminal window in the `ffx-lightning-dodger` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Follow the directions on flashing `Joystick.hex` onto your Teensy, which can be found page where you downloaded the Teensy Loader application.
-
-
+Open a terminal window in the `ffx-lightning-dodger` directory, type `make`, and hit enter to compile. If all goes well, the printout in the terminal will let you know it finished the build! Then use [avrdude](https://www.nongnu.org/avrdude/user-manual/avrdude.html) to flash `Joystick.hex` onto your Pro Micro and you're good to go.
 
 #### Thanks
 
-Thanks to Shiny Quagsire for his [Splatoon post printer](https://github.com/shinyquagsire23/Switch-Fightstick), progmem for his [original discovery](https://github.com/progmem/Switch-Fightstick), and 
+Thanks to Shiny Quagsire for his [Splatoon post printer](https://github.com/shinyquagsire23/Switch-Fightstick), progmem for his [original discovery](https://github.com/progmem/Switch-Fightstick), and bertrandom for his [snowball thrower](https://github.com/bertrandom/snowball-thrower).
