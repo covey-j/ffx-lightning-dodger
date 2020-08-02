@@ -2,7 +2,7 @@
 
 Automatically dodges lightning bolts in the Thunder Plains by emulating a controller on a SparkFun Pro Micro (ATmega32U4).
 
-[![IMAGE ALT TEXT HERE](https://streamable.com/9tc3zi)](https://streamable.com/9tc3zi)
+[![IMAGE ALT TEXT HERE](https://streamable.com/e/9tc3zi)](https://streamable.com/e/9tc3zi)
 
 #### How to use
 
