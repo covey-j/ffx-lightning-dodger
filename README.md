@@ -2,7 +2,9 @@
 
 Automatically dodges lightning bolts in the Nintendo Switch version of Final Fantasy X HD by emulating a controller on a SparkFun Pro Micro (ATmega32U4). This can be easily adapted to other micro controllers.
 
-[Video of it in action](https://streamable.com/e/9tc3zi)
+#### Video demo
+
+[![](https://img.youtube.com/vi/QCUSucX07bY/0.jpg)](https://youtu.be/QCUSucX07bY)
 
 #### How to use
 
